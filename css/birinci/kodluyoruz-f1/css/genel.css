@@ -1,0 +1,18 @@
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #80ED99;
+}
+
+body {
+    background-color: #22577A;
+    font-size: 22px ;
+}
+h2 {
+    color: #80ED99;
+}
+nav {
+    color: yellow;
+}

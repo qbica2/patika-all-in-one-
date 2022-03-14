@@ -1,0 +1,295 @@
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 400px ;
+    background-color: #fff;
+    display: block;
+}
+/*  büyüteç için */
+.magn {
+    display: flex;
+    width: 33px;
+    height: 44px;
+    align-items: center;
+    margin: -5px 0 0;
+    padding : 0 13px 0 0;
+    
+}
+/* sadece arama satırı */
+.input1 {
+    width: 443px;
+    height: 30px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    color: #202124;
+    font-size: 16px;
+    outline: none;
+}
+/* googleda ara butonu */
+.input2 {
+    width: 124px;
+    height: 36px;
+    padding: 0px,16px;
+    margin: 11px 4px  ;
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+/* kendimi şanslı hissediyorum butonu */
+.input3 {
+    width: 220.4px;
+    height: 36px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+}
+/* arama satırı komple */
+.searchBuyuk {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 42px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+.searchKucuk {
+
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+/* klavye  */
+.klavye {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    float: right;
+}
+/* mic */
+.mic{
+    display: flex;
+    float: right;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    line-height: 44px;
+
+}
+/* googleda ara ve kendimi şanslı hissediyorum ortala */
+.center {
+    display: block;
+    text-align: -webkit-center;
+    padding: 18px 0px 0px;
+    margin-bottom: 25px;
+} 
+.header {
+    /* display: inline-block; */
+    flex-grow: 1;
+    float: right;
+}
+/* sağ üst bar komple */
+.sagUstBar {
+    padding-left: 32px;
+    padding-right: 4px;
+    box-sizing: border-box;
+    height: 48px;
+    width: 260.2px;
+    line-height: normal;
+    display: block;
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+/* divleri block yapmak için */
+.block {
+    display: block;
+}
+/* gmail ve görseller ikisi için de geçerli ama tek tek  */
+.gmail {
+    display: block;
+    padding-left: 15px;
+    line-height: 24px ;
+    /* vertical-align: middle; */
+    float: right;
+    margin-top: 13px;
+    margin-right: 8px;
+    
+    
+}
+/*  gmail ve görseller için tek dive */
+.both {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    text-align: right;
+    padding-right: 15px;
+    display: block ;
+    
+    
+}
+/*  gmail ve görselin  a nın içinde renk ayarı */
+a.color{
+    text-decoration: none;
+    color: rgba(0,0,0.87);
+}
+/* K nın block u  */
+.block2 {
+display: block;
+float: right;
+height: 24px;
+width: 24px;
+padding: 8px;
+}
+/* sag üsteki 9noktanın paddingi */
+.padding9 {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 13px;
+    padding-bottom: 8px;
+}
+/* google büyük resmi için block */
+.google{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* google büyük resim için div block u*/
+.block3 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+/* google ı kullanabileceğiniz diller */
+.dil {
+    text-align: center;
+    font-size: small;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: block;
+    margin-bottom: 24px;
+}
+/* Türkiye  */
+.Turk {
+
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    position: absolute;
+    bottom: 50px;
+    font-family: arial, sans-serif;
+}
+/* en alt */
+.alt {
+    display: flex;
+    padding: 0 20px ;
+
+}
+/* hakkında */
+.alt1 {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+}
+.reklam {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+}
+.ısletme {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 190px;
+}
+.arama {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 280px;
+} 
+.gizlilik {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 1300px ;
+}
+.sartlar {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 1380px;
+}
+.ayarlar {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 1450px;
+}
+
+a.color2 {
+    text-decoration: none;
+    color: #70757a;
+}
+.altorta {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #70757a;
+    text-align: center;
+    margin-left: 630px;
+    margin-right: 440px;
+    position: absolute;
+    bottom: 0px;
+}
+.margin {
+    margin-top: 30px;
+}
+/* alttaki yazı tipi */
+.altyazı {
+font-size: 14px;
+font-family: arial,sans-serif;
+}

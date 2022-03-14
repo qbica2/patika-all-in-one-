@@ -1,0 +1,70 @@
+
+
+ /* Step1 Google resmini ortaladık  */
+img {
+    display: block;  /* resmi blok haline getirdik */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*  arama motorunu ortaladık */
+form {
+    text-align: center;
+}
+/* orjinal boyutlara getirdik */
+.input1 {
+    width: 253.6px;
+}
+
+.input2 {
+    width: 103.2px;
+
+}
+.input3 {
+    width:109.6px ;
+}
+/* yazımızı ortaladık */
+.center {
+    text-align: center;
+    margin: 2px;
+}
+
+/* soldaki bosluk */
+.solbos {
+    width: 112.5px;
+    height: 78px;
+    background-color: white;
+    float: left;
+    
+}
+.sol {
+    width: 504px;
+    height: 78px;
+    background-color:#7EE5DA; 
+    float:left ;
+    margin: 1px;
+    text-align: center;
+    padding-top: 1px;
+   
+    
+}
+.orta {
+    color: blue;
+    width: 283px;
+    height: 78px;
+    background-color:#70CCC2;
+    font-size: 13px;
+    float: left;
+    margin: 1px;
+    text-align: center;
+}
+.sag {
+    width: 504px;
+    height: 78px;
+    background-color:#62B3AA; 
+    float:left ;
+    margin: 1px;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 13px;
+}
